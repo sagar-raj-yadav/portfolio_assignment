@@ -1,0 +1,216 @@
+.imageIcon,
+.projectChild {
+  align-self: stretch;
+  position: relative;
+}
+.imageIcon {
+  height: 256px;
+  border-radius: 12px 12px 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.projectChild {
+  height: 365px;
+  background-color: #fff;
+  display: none;
+}
+.howToMake,
+.loremIpsumDolor {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.howToMake {
+  width: 267.3px;
+  line-height: 20.2px;
+  font-weight: 500;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 41px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  flex-shrink: 0;
+}
+.howToMakeFlyerDesignParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.7px;
+}
+.reactjs {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 65px;
+}
+.chip {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.6px 13px 0.7px;
+}
+.reactjs1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 49px;
+}
+.chip1,
+.chipParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chip1 {
+  width: 77px;
+  border-radius: 50px;
+  background-color: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  padding: 0.6px 13px 0.7px;
+}
+.chipParent {
+  align-self: stretch;
+  gap: 10px;
+}
+.reactjs2 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 37px;
+}
+.chip2 {
+  width: 65px;
+  border-radius: 50px;
+  background-color: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.7px 13px 0.6px;
+}
+.reactjs3 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 61px;
+}
+.chip3 {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  flex-direction: row;
+  padding: 0.7px 13px 0.6px;
+}
+.chip3,
+.chipGroup,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chipGroup {
+  width: 164px;
+  flex-direction: row;
+  gap: 10px;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 9.9px;
+  min-width: 72px;
+}
+.reactjs4 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 43px;
+}
+.chip4 {
+  width: 71px;
+  border-radius: 50px;
+  background-color: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.6px 13px 0.7px;
+}
+.reactjs5 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 27px;
+}
+.chip5 {
+  width: 55px;
+  border-radius: 50px;
+  background-color: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 0.6px 13px 0.7px;
+}
+.cardContent,
+.chip5,
+.frameParent,
+.project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 27px 0.1px 0;
+  gap: 10px;
+  font-size: 13px;
+  color: #000;
+}
+.cardContent,
+.project {
+  flex-direction: column;
+}
+.cardContent {
+  align-self: stretch;
+  padding: 16px 16px 19.9px;
+  gap: 15px;
+}
+.project {
+  width: 387px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  min-width: 368px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #2b2b2b;
+  font-family: Inter;
+}

@@ -1,0 +1,376 @@
+.abcd {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.abcd > div {
+  box-sizing: border-box; 
+}
+
+
+
+.popupheader{
+  color: #2b2b2b;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  text-transform: capitalize;
+  max-width: 189px;
+  font: 700 44px/123.6% Inter, -apple-system, Roboto, Helvetica,
+    sans-serif;
+    margin:0 auto;
+    font-weight: bold;
+}
+.infoDetailsInner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 16px;
+    max-width: 100%;
+}
+
+.addSkill,
+.skillsDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.skillsDescription {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 20px 63.7px;
+  }
+
+  .addSkill1 {
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 73px;
+    margin-left: 60%;
+  }
+  .addSkill,
+  .skillsDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .addSkill1 {
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+
+.addSkill {
+  cursor: pointer;
+  border: 0;
+  padding: 17px 39px;
+  background-color: #ffb400;
+  border-radius: 5px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+  
+  .addSkill:hover {
+    background-color: #cc8200;
+  }
+
+.addSkill {
+    margin: 0;
+    position: relative;
+    font-size: 44px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: Inter;
+    color: #2b2b2b;
+    text-align: center;
+}
+
+.addSkillWrapper {
+    width: 777px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.domain {
+    align-self: stretch;
+    position: relative;
+    font-size: 22px;
+    line-height: 125%;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: Inter;
+    color: #2b2b2b;
+    text-align: left;
+    margin-left:8px;
+}
+
+.domainInput,
+.domainParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin:0 30px 0 8px;
+}
+
+.domainInput {
+    width: 777px;
+    border: 0;
+    outline: 0;
+    background-color: #f0f0f6;
+    height: 44px;
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 26px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(43, 43, 43, 0.5);
+}
+
+.domainParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 18.6px;
+}
+
+.skill,
+.skills {
+    position: relative;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.skills {
+    align-self: stretch;
+    font-size: 22px;
+    line-height: 27.5px;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.skill {
+    font-size: 18px;
+    line-height: 123.6%;
+    display: inline-block;
+    min-width: 36px;
+}
+
+.i,
+.proficiency1,
+.skill {
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.proficiency {
+    position: relative;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    text-align: left;
+}
+
+.frameParent,
+.inputs,
+.skillParent,
+.skillsParent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.skillParent {
+    width: 756px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.frameParent,
+.inputs,
+.skillsParent {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14px;
+}
+
+.frameParent,
+.inputs {
+    gap: 16px;
+}
+
+.frameParent {
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.addSkill2 {
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 73px;
+}
+
+.addSkill1 {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 30px;
+    background-color: #ffb400;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.addSkill1:hover {
+    background-color: #cc8200;
+}
+
+.cancel1 {
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Inter;
+    color: #ff5252;
+    text-align: left;
+    display: inline-block;
+    min-width: 58px;
+}
+
+.addSkillParent,
+.cancel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.cancel {
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cancel:hover {
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+}
+
+.addSkillParent {
+    gap: 25px;
+    max-width: 100%;
+}
+
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.5s;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 100%;
+  animation: slideIn 0.5s;
+  position: relative;
+}
+
+.addSkillWrapper {
+  text-align: center;
+}
+
+.domainParent,
+.frameParent,
+.infoDetailsInner {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addSkillParent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.addSkill1,
+.cancel {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+}
+
+.cancel {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.addSkill1:hover,
+.cancel:hover {
+  opacity: 0.8;
+}
+

@@ -1,0 +1,114 @@
+.ametMinimMollit,
+.skillsLangauges {
+  position: relative;
+  text-transform: capitalize;
+}
+.skillsLangauges {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 41px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ametMinimMollit {
+  width: 438px;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.skillsDescription,
+.skillsSummary {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skillsDescription {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #767676;
+}
+.skillsSummary {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.skillCategoryContainer,
+.skillsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.skillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+}
+.skillCategoryContainer {
+  height: 78.7px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.skillCategoryContainer,
+.skillList,
+.skillListWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skillList {
+  width: 1245.5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.skillListWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 282.3px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 32px;
+  color: #2b2b2b;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .skillListWrapper {
+    padding-bottom: 183px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .skillsLangauges {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .skillCategoryContainer,
+  .skillList,
+  .skillsWrapper {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skillsLangauges {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .skillCategoryContainer {
+    height: auto;
+  }
+  .skillListWrapper {
+    padding-bottom: 119px;
+    box-sizing: border-box;
+  }
+}

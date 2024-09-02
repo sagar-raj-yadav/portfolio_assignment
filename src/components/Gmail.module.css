@@ -1,0 +1,137 @@
+.gmailChild {
+  height: 211.6px;
+  width: 372.7px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.email,
+.skype,
+.telegram {
+  position: relative;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 52.4px;
+  z-index: 1;
+}
+.skype,
+.telegram {
+  min-width: 59.4px;
+}
+.telegram {
+  min-width: 86.6px;
+}
+.supportContainer,
+.supportOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.supportOptions {
+  justify-content: flex-start;
+  gap: 16.1px;
+}
+.supportContainer {
+  justify-content: flex-end;
+  padding: 0 0 1px;
+}
+.iconBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #ffb400;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.consmailIcon {
+  position: absolute;
+  top: 11.1px;
+  left: 11.1px;
+  width: 18.1px;
+  height: 18.1px;
+  z-index: 2;
+}
+.iconBackgroundParent {
+  width: 40.3px;
+  height: 40.3px;
+  position: relative;
+}
+.youremailgmailcom,
+.yourusername,
+.yourusername1 {
+  position: relative;
+  line-height: 24.2px;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.youremailgmailcom {
+  align-self: stretch;
+  white-space: nowrap;
+}
+.yourusername,
+.yourusername1 {
+  width: 118.9px;
+  display: inline-block;
+  min-width: 118.9px;
+}
+.userEmailContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 14.1px;
+}
+.support,
+.supportOptions1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.support {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 18px;
+}
+.supportOptions1 {
+  width: 181.4px;
+  flex-direction: column;
+  gap: 34.2px;
+  min-width: 181.4px;
+  text-align: right;
+  font-size: 15px;
+}
+.gmail {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: -4.3px;
+  right: -0.3px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 25.2px 25px 11.1px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  height: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: #767676;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .supportOptions1 {
+    flex: 1;
+  }
+  .gmail {
+    flex-wrap: wrap;
+  }
+}

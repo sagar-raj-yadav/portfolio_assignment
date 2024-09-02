@@ -1,0 +1,325 @@
+.heroChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.heroInner,
+.heroItem {
+  box-sizing: border-box;
+  z-index: 1;
+}
+.heroItem {
+  height: 21.6px;
+  width: 97.9px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid rgba(255, 180, 0, 0.8);
+}
+.heroInner {
+  height: 21.8px;
+  width: 22.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 93.68px;
+  right: 129.61px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: rotate(24.8deg);
+  transform-origin: 0 0;
+}
+.frameChild,
+.polygonIcon {
+  height: 21.6px;
+  width: 22.8px;
+  z-index: 1;
+}
+.polygonIcon {
+  position: absolute;
+  margin: 0 !important;
+  right: 102.3px;
+  bottom: 32.4px;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid rgba(5, 255, 0, 0.8);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.contentContainerInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 55px;
+}
+.imRayanAdlrdard {
+  margin: 0;
+}
+.frontEnd {
+  color: #ffb400;
+}
+.frontEndDeveloper {
+  margin: 0;
+}
+.imRayanAdlrdardContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 123.6%;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contentContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 33.3px;
+}
+.loremIpsumDolor {
+  width: 600.8px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #767676;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.contentContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 64.9px;
+  max-width: 100%;
+}
+.buttonBackground {
+  height: 21.8px;
+  width: 22.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: -12.52px;
+  right: 253.51px;
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  box-sizing: border-box;
+  transform: rotate(24.8deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.hireMe {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #2b2b2b;
+  text-align: center;
+  display: inline-block;
+  min-width: 65px;
+}
+.frameIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameWrapper,
+.hireMeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: 1px 0 0;
+}
+.hireMeParent {
+  flex-direction: row;
+  gap: 9px;
+}
+.buttonhireMe2 {
+  border-radius: 5px;
+  background-color: #ffb400;
+  padding: 16px 32px;
+}
+.buttonhireMe,
+.buttonhireMe1,
+.buttonhireMe2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonhireMe1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.buttonhireMe {
+  align-self: stretch;
+  padding: 0 0 17.8px;
+  z-index: 1;
+}
+.frameItem {
+  height: 21.6px;
+  width: 22.8px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid rgba(5, 255, 0, 0.8);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.buttonhireMeParent,
+.ellipseWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseWrapper {
+  flex-direction: row;
+  padding: 0 27px;
+}
+.buttonhireMeParent {
+  width: 218.2px;
+  flex-direction: column;
+  gap: 39.1px;
+}
+.frameInner {
+  width: 22.8px;
+  height: 21.6px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid rgba(255, 180, 0, 0.8);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.ellipseContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.ellipseContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 51.2px 0 0;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.buttonBackgroundParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.buttonBackgroundParent,
+.frameDiv,
+.frameParent,
+.hero,
+.heroWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-top: 45px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 104.5px;
+}
+.frameDiv,
+.hero,
+.heroWrapper {
+  box-sizing: border-box;
+}
+.frameDiv {
+  width: 721.7px;
+  flex-direction: column;
+  padding: 29.6px 0 0;
+}
+.hero,
+.heroWrapper {
+  flex-direction: row;
+}
+.hero {
+  flex: 1;
+  padding: 40.5px 57px 39.1px 0;
+  position: relative;
+  row-gap: 20px;
+}
+.heroWrapper {
+  align-self: stretch;
+  padding: 0 0 60px 1px;
+  text-align: left;
+  font-size: 48px;
+  color: #2b2b2b;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .hero {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .imRayanAdlrdardContainer {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .contentContainer {
+    gap: 17px;
+  }
+  .contentContainerParent {
+    gap: 32px;
+  }
+  .frameParent {
+    gap: 52px;
+  }
+  .hero,
+  .heroWrapper {
+    box-sizing: border-box;
+  }
+  .hero {
+    padding-top: 26px;
+    padding-bottom: 25px;
+  }
+  .heroWrapper {
+    padding-bottom: 39px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .imRayanAdlrdardContainer {
+    font-size: 29px;
+    line-height: 36px;
+  }
+  .contentContainerParent {
+    gap: 16px;
+  }
+  .frameParent {
+    gap: 26px;
+  }
+}

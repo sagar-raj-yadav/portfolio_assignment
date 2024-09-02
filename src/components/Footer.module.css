@@ -1,0 +1,314 @@
+.logoIcon {
+  width: 970px;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.logoIcon1,
+.upworkImageIcon {
+  width: 158px;
+  height: 76px;
+  position: relative;
+  object-fit: contain;
+}
+.upworkImageIcon {
+  width: 91px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.ratingOnLorem {
+  align-self: stretch;
+  position: relative;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.upwork {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dribbleChild {
+  width: 73px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.ratingOnIpsum {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dribble {
+  width: 149px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fiverrImageIcon {
+  width: 76px;
+  height: 40px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.ratingOnDorel {
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  line-height: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fiverr,
+.logos {
+  width: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logos {
+  width: 177px;
+  gap: 20px;
+}
+.education,
+.heading,
+.home,
+.skills {
+  position: relative;
+  text-transform: capitalize;
+}
+.heading {
+  line-height: 30px;
+  display: inline-block;
+  min-width: 114px;
+}
+.education,
+.home,
+.skills {
+  align-self: stretch;
+  line-height: 24px;
+}
+.projects {
+  display: inline-block;
+  min-width: 62px;
+}
+.projects,
+.recommendations {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.navigationLinks,
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationLinks {
+  align-self: stretch;
+  gap: 8px;
+  font-size: 16px;
+}
+.quickLinks {
+  width: 141px;
+  gap: 20px;
+}
+.backendDevelopment,
+.frontend,
+.heading1 {
+  position: relative;
+  text-transform: capitalize;
+}
+.heading1 {
+  line-height: 30px;
+  display: inline-block;
+  min-width: 85px;
+}
+.backendDevelopment,
+.frontend {
+  line-height: 24px;
+}
+.websiteDesign {
+  align-self: stretch;
+}
+.machineLearning,
+.problemSolving,
+.websiteDesign {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.portfolio,
+.portfolioItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.portfolioItems {
+  align-self: stretch;
+  gap: 8px;
+  font-size: 16px;
+}
+.portfolio {
+  width: 174px;
+  gap: 10px;
+}
+.heading2 {
+  position: relative;
+  line-height: 30px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 84px;
+}
+.linkedinIcon {
+  width: 100px;
+  height: 25px;
+  position: relative;
+  object-fit: contain;
+}
+.instagramIcon {
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.facebookIcon {
+  width: 107px;
+  height: 25px;
+  position: relative;
+  object-fit: contain;
+}
+.connect,
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.social {
+  align-self: stretch;
+  gap: 16px;
+}
+.connect {
+  width: 125px;
+  gap: 20px;
+}
+.footerContent,
+.footerInfo,
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.links {
+  width: 780px;
+  justify-content: flex-start;
+  gap: 170px;
+  font-size: 20px;
+  color: #000;
+}
+.footerContent,
+.footerInfo {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footerContent {
+  background-color: #f0f0f6;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 45px 98px 0;
+  box-sizing: border-box;
+  gap: 50px;
+  text-align: left;
+  font-size: 12px;
+  color: #767676;
+  font-family: Inter;
+}
+.copyrightCircleIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.copyrightAllRight {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.copyrightCircleParent,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyrightCircleParent {
+  flex-direction: row;
+  padding: 16px 20px;
+  gap: 10px;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 20px;
+  text-align: left;
+  font-size: 15px;
+  color: #767676;
+  font-family: Inter;
+}
+@media screen and (max-width: 1225px) {
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .links {
+    flex-wrap: wrap;
+    gap: 85px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerContent {
+    gap: 25px;
+    padding-left: 49px;
+    padding-right: 49px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading,
+  .heading1,
+  .heading2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .links {
+    gap: 42px;
+  }
+  .footerContent {
+    padding-left: 20px;
+    padding-top: 29px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

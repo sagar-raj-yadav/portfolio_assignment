@@ -1,0 +1,61 @@
+.profileIcon {
+  height: 80.6px;
+  width: 87.7px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.photographer,
+.tianaPhilips {
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.tianaPhilips {
+  align-self: stretch;
+  line-height: 123.6%;
+  font-weight: 500;
+}
+.photographer {
+  line-height: 24.2px;
+  display: inline-block;
+  min-width: 107.5px;
+}
+.occupationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8px 0 4px;
+  font-size: 15px;
+  color: #767676;
+}
+.reviewer1,
+.reviewerName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviewer1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.reviewerName {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 11px;
+}
+.reviewer {
+  width: 236.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 29.7px;
+  text-align: left;
+  font-size: 18px;
+  color: #2b2b2b;
+  font-family: Inter;
+}

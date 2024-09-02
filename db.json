@@ -1,0 +1,227 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "How To Make Flyer Design",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "technologies": [
+        "TypeScript",
+        "ReactJs",
+        "HTML",
+        "MongoDB",
+        "NextJs",
+        "CSS"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "How To Make Flyer Design",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "technologies": [
+        "TypeScript",
+        "ReactJs",
+        "NextJs",
+        "CSS"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "How To Make Flyer Design",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "technologies": [
+        "TypeScript",
+        "ReactJs",
+        "HTML",
+        "MongoDB",
+        "NextJs",
+        "CSS"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "How To Make Flyer Design",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "technologies": [
+        "TypeScript",
+        "ReactJs",
+        "HTML",
+        "MongoDB",
+        "NextJs",
+        "CSS"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "How To Make Flyer Design",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "technologies": [
+        "TypeScript",
+        "ReactJs",
+        "HTML",
+        "MongoDB",
+        "NextJs",
+        "CSS"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "How To Make Flyer Design",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "technologies": [
+        "TypeScript",
+        "ReactJs",
+        "HTML",
+        "MongoDB",
+        "NextJs",
+        "CSS"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "1",
+      "title": "Amazing work!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "name": "James Gouse",
+      "work": "Graphics Designer",
+      "image": "profile-1@2x.png",
+      "rating": "Rating.png"
+    },
+    {
+      "id": "2",
+      "title": "Amazing work!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "name": "Tiana Philips",
+      "work": "Photographer",
+      "image": "profile-2@2x.png",
+      "rating": "Rating.png"
+    },
+    {
+      "id": "3",
+      "title": "Amazing work!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "name": "Talan Westervelt",
+      "work": "Business Man",
+      "image": "profile-3@2x.png",
+      "rating": "Rating.png"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "domain": "Front End Development",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90%"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85%"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80%"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75%"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "domain": "Languages",
+      "skills": [
+        {
+          "language": "Hindi",
+          "proficiency": "90%"
+        },
+        {
+          "language": "English",
+          "proficiency": "85%"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "domain": "Back End Development",
+      "skills": [
+        {
+          "skill": "NodeJS",
+          "proficiency": "90%"
+        },
+        {
+          "skill": "SSR",
+          "proficiency": "85%"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "domain": "Front End Development",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90%"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85%"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80%"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75%"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "domain": "Front End Development",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90%"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85%"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80%"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75%"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "domain": "Back End Development",
+      "skills": [
+        {
+          "skill": "NodeJS",
+          "proficiency": "90%"
+        },
+        {
+          "skill": "SSR",
+          "proficiency": "85%"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "8b58"
+    },
+    {
+     
+    }
+  ]
+}

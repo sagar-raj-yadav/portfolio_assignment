@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+.slider-container {
+  width: 1200px;
+  padding: 0px auto;
+}
+.slick-dots li button:before {
+  color: orange;
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: orange;
+  font-size: 10px;
+}
